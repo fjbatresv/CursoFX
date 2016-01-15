@@ -185,7 +185,7 @@ public class VentanaPrincipalAdmin{
 		Label lblBienvenido = new Label("Bienvenid@, "+ManejadorUsuario.getInstancia().getUsuario().getNick());
 		lblBienvenido.setStyle("-fx-font-size: 15pt;");
 		Label lblBuscar = new Label("Buscar:");
-		Image imagen = new Image("src/org/javierbatres/proyecto/recursos/logologin.png");
+		Image imagen = new Image("org/javierbatres/proyecto/recursos/logologin.png");
 		 final ImageView cloud = new ImageView(imagen);
 	        GridPane.setConstraints(cloud, 0, 0);
 		//añadir a grid

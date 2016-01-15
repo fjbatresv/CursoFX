@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CursoFX.jnlp">
+  <information>
+    <title>CursoFX</title>
+    <vendor>javie</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CursoFX.jar" size="3034852" download="eager" />
+    <jar href="lib\sqljdbc.jar" size="583286" download="eager" />
+    <jar href="lib\substance.jar" size="1831944" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="CursoFX" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="helloworld.HelloWorld"  name="CursoFX" />
+  <update check="always"/>
+</jnlp>
